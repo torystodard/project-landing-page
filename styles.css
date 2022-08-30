@@ -1,76 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    margin-left: 15%;
-    margin-right: 15%;
-    background-color: #082032;
-}
-
-.logo {
-    color: #334756;
-    font-weight: 900;
-    font-size: 32px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 12px;
-    margin-bottom: 48px;
-}
-
-a {
-    text-decoration: none;
-    margin: 8px;
-    color: #334756;
-    font-size: 22px;
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    margin-left: 12%;
+    font-size: 24px;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+nav {
+    margin-right: 12%;
+    margin-top: 18px;
+}
+
+a {
+    color: #E5E7Eb;
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 100px;
+    background-color: #1F2937;
+    /* margin-bottom: 200px; */
 }
 
-.title,.subtitle,.sign-up-btn {
-    margin: 8px;
+.hero-left {
+    margin-left: 12%;
+    margin-top: 80px;
 }
 
-.title {
-    color: #FF4C29;
-    font-size: 40px;
+.hero-right {
+    margin-right: 12%;
+    margin-top: 80px;
+    padding: 75px 200px 75px 200px;
+    border-radius: 2px;
+    background-color: #7d828d;
+    color: #F9FAF8;
+    text-align: center;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 48px;
 }
 
 .subtitle {
-    color: #334756;
-    font-size: 28px;
+    color: #E5E7Eb;
+    font-size: 18px;
+    margin-top: 8px;
 }
 
 .sign-up-btn {
-    background-color: #FF4C29;
-    color: #334756;
-    font-weight: bold;
-    font-size: 14px;
+    margin-top: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
     width: 125px;
-    height: 50px;
+    height: 35px;
     border-radius: 8px;
     border-style: none;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .sign-up-btn:hover {
-    background-color: #082032;
-    border: 2px solid #FF4C29;
-}
-
-.header-image {
-    width: 500px;
-    height: 250px;
-    border-radius: 8px;
-    background-color: #FF4C29;
-    color: #334756;
-    text-align: center;
+    border: 2px solid #3882F6;
+    background-color: #1F2937;
 }
