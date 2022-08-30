@@ -154,3 +154,50 @@ h1 {
     font-size: 24px;
     font-weight: bold;
 }
+
+.s3 {
+    background-color: #F9FAF8;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-banner {
+    width: 900px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-banner-left {
+    margin-left: 10%;
+}
+
+.cta-banner-left h2 {
+    color: #F9FAF8;
+}
+
+.cta-banner-left p {
+    color: #E5E7Eb;
+    font-size: 18px;
+}
+
+.cta-btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    width: 125px;
+    height: 35px;
+    font-size: 18px;
+    margin-right: 10%;
+}
+
+.cta-btn:hover {
+    background-color: #F9FAF8;
+    color: #1F2937;
+}
