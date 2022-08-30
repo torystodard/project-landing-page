@@ -128,3 +128,29 @@ h1 {
     color: #7d828d;
     font-size: 18px;
 }
+
+.s2 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #E5E7Eb;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.quote,.signature {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.signature {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+}
