@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #082032;
+}
+
+.logo {
+    color: #334756;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-bottom: 48px;
+}
+
+a {
+    text-decoration: none;
+    margin: 8px;
+    color: #334756;
+    font-size: 22px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title,.subtitle,.sign-up-btn {
+    margin: 8px;
+}
+
+.title {
+    color: #FF4C29;
+    font-size: 40px;
+}
+
+.subtitle {
+    color: #334756;
+    font-size: 28px;
+}
+
+.sign-up-btn {
+    background-color: #FF4C29;
+    color: #334756;
+    font-weight: bold;
+    font-size: 14px;
+    width: 125px;
+    height: 50px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.sign-up-btn:hover {
+    background-color: #082032;
+    border: 2px solid #FF4C29;
+}
+
+.header-image {
+    width: 500px;
+    height: 250px;
+    border-radius: 8px;
+    background-color: #FF4C29;
+    color: #334756;
+    text-align: center;
+}
