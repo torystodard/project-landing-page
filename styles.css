@@ -7,6 +7,10 @@
     font-family: 'Roboto Flex', sans-serif;
 }
 
+body {
+    background-color: #1F2937;
+}
+
 header {
     background-color: #1F2937;
     display: flex;
@@ -200,4 +204,16 @@ h1 {
 .cta-btn:hover {
     background-color: #F9FAF8;
     color: #1F2937;
+}
+
+footer {
+    background-color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.copyright {
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
 }
